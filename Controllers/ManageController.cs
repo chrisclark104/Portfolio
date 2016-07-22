@@ -6,9 +6,10 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using Portfolio;
 using Portfolio.Models;
 
-namespace Portfolio.Controllers
+namespace Blog.Controllers
 {
     [Authorize]
     public class ManageController : Controller
